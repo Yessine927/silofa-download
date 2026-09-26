@@ -97,6 +97,7 @@
   .box.note { background: var(--note); border-color: var(--note-line); }
   .box h3 { font: 600 17px/1.3 var(--display); margin: 0 0 10px; }
   .box ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; }
+  .box p + ul { margin-top: 8px; }
   .box p { margin: 0 0 8px; }
   .box p:last-child { margin-bottom: 0; }
 
@@ -163,9 +164,13 @@
       </ul>
     </div>
     <div class="box note">
-      <h3>Au premier lancement</h3>
+      <h3>Premier téléchargement et lancement</h3>
       <p>SILOFA prépare en arrière-plan l’IA qui lit vos factures PDF, directement sur votre PC : environ 3,5 Go, téléchargés une seule fois. Vous pouvez utiliser l’application pendant ce temps.</p>
-      <p>Si Windows affiche « Windows a protégé votre ordinateur », cliquez sur <strong>Informations complémentaires</strong>, puis sur <strong>Exécuter quand même</strong>.</p>
+      <p>SILOFA est nouveau, donc Windows ne le connaît pas encore et affiche des avertissements. Le fichier est sûr ; voici comment les passer :</p>
+      <ul>
+        <li><strong>Microsoft Edge</strong> indique que le fichier « n’est pas fréquemment téléchargé » : cliquez sur <strong>…</strong> puis <strong>Conserver</strong>, puis <strong>Afficher plus</strong> et <strong>Conserver quand même</strong>.</li>
+        <li><strong>Windows</strong> affiche « Windows a protégé votre ordinateur » : cliquez sur <strong>Informations complémentaires</strong>, puis sur <strong>Exécuter quand même</strong>.</li>
+      </ul>
     </div>
   </div>
 
